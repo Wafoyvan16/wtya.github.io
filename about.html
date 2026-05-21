@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Turbo TAkeudoum</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #000;
+    color: #e5e5e5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  a { color: inherit; text-decoration: none; }
+  nav {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #1a1a1a;
+  }
+  .nav-inner {
+    max-width: 680px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo { font-weight: 600; font-size: 1rem; color: #fff; }
+  .nav-logo:hover { color: #aaa; }
+  .nav-links { display: flex; gap: 1.5rem; }
+  .nav-links a { font-size: 0.85rem; color: #555; transition: color 0.15s; }
+  .nav-links a:hover, .nav-links a.active { color: #e5e5e5; }
+  main {
+    flex: 1;
+    max-width: 680px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 4rem 2rem 6rem;
+  }
+  .page-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 2.5rem;
+  }
+  .about-section { margin-bottom: 2.5rem; }
+  .about-section h2 {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+  }
+  .about-section p {
+    font-size: 0.9rem;
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+  }
+  .skills-list li {
+    font-size: 0.75rem;
+    color: #555;
+    background: #0d0d0d;
+    border: 1px solid #1a1a1a;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+  }
+  .contact-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+  .contact-list li a {
+    font-size: 0.875rem;
+    color: #555;
+    transition: color 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .contact-list li a:hover { color: #aaa; }
+  footer {
+    border-top: 1px solid #111;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #333;
+  }
+  footer a { color: #444; transition: color 0.15s; }
+  footer a:hover { color: #888; }
+  footer .sep { margin: 0 0.5rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">TAkeudoum</a>
+    <div class="nav-links">
+      <a href="blog.html">Blog</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html" class="active">About</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1 class="page-title">About Me 👋</h1>
+
+  <div class="about-section">
+    <h2>Qui suis-je</h2>
+    <p>Je suis Turbo TAkeudoum, ingénieur cybersécurité passionné par le pentest et la défense des infrastructures.</p>
+    <p>Je partage ici mes projets, writeups CTF et réflexions sur la sécurité offensive et défensive.</p>
+  </div>
+
+  <div class="about-section">
+    <h2>Compétences</h2>
+    <ul class="skills-list">
+      <li>Pentest</li>
+      <li>SOC</li>
+      <li>CTF</li>
+      <li>Réseau</li>
+      <li>Cryptographie</li>
+      <li>Forensic</li>
+      <li>SecOps</li>
+      <li>CTI</li>
+      <li>OSINT</li>
+      <li>Linux</li>
+    </ul>
+  </div>
+
+  <div class="about-section">
+    <h2>Plateformes</h2>
+    <ul class="skills-list">
+      <li>HackTheBox</li>
+      <li>TryHackMe</li>
+      <li>Root-Me</li>
+    </ul>
+  </div>
+
+  <div class="about-section">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li><a href="mailto:ton@email.com">✉ ton@email.com</a></li>
+      <li><a href="https://github.com/tonprofil" target="_blank">⌥ GitHub</a></li>
+      <li><a href="https://linkedin.com/in/tonprofil" target="_blank">↗ LinkedIn</a></li>
+    </ul>
+  </div>
+</main>
+
+<footer>
+  <a href="https://github.com/tonprofil" target="_blank">GitHub</a>
+  <span class="sep">•</span>
+  <a href="https://linkedin.com/in/tonprofil" target="_blank">LinkedIn</a>
+  <span class="sep">•</span>
+  Turbo TAkeudoum
+  <span class="sep">•</span>
+  © 2025
+</footer>
+
+</body>
+</html>
