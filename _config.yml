@@ -1,0 +1,38 @@
+title: "Portfolio — Cybersecurity Engineer"
+description: "Portfolio, expériences et writeups CTF"
+url: "https://VOTRE-PSEUDO.github.io"   # remplacez par votre URL GitHub Pages
+baseurl: ""                             # laissez vide si repo nommé VOTRE-PSEUDO.github.io
+                                         # sinon mettez "/nom-du-repo"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+collections:
+  writeups:
+    output: true
+    permalink: /writeups/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "writeups"
+    values:
+      layout: "writeup"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
