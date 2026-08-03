@@ -5,9 +5,16 @@ layout: default
 
 <section class="hero">
   <div class="hero__inner">
-    <p class="hero__prompt"><span class="hero__prompt-sym">$</span> whoami<span class="hero__cursor" aria-hidden="true">_</span></p>
-    <h1 class="hero__name">{{ p.name }}</h1>
-    <p class="hero__role">{{ p.role }} · {{ p.location }}</p>
+    <div class="hero__top">
+      {% if p.avatar %}
+      <img class="hero__avatar" src="{{ p.avatar | relative_url }}" alt="Photo de {{ p.name }}">
+      {% endif %}
+      <div class="hero__intro">
+        <p class="hero__prompt"><span class="hero__prompt-sym">$</span> whoami<span class="hero__cursor" aria-hidden="true">_</span></p>
+        <h1 class="hero__name">{{ p.name }}</h1>
+        <p class="hero__role">{{ p.role }} · {{ p.location }}</p>
+      </div>
+    </div>
     <p class="hero__tagline">{{ p.tagline }}</p>
 
     <div class="hero__cta">

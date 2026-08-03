@@ -424,3 +424,32 @@ ul { margin: 0; padding: 0; list-style: none; }
 .tag--brouillon { background: #FFF3D6; color: #8A6116; }
 .tag--en-cours { background: var(--accent-soft); color: var(--accent); }
 .tag--publie { background: var(--signal-soft); color: var(--signal); }
+
+/* =========================================================
+   Hero avatar
+   ========================================================= */
+.hero__top {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.hero__avatar {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--surface);
+  box-shadow: 0 0 0 1px var(--border), 0 8px 20px rgba(18, 21, 27, 0.08);
+  flex-shrink: 0;
+}
+.hero__intro { min-width: 0; }
+.hero__intro .hero__prompt { margin-bottom: 6px; }
+.hero__intro .hero__name { margin-bottom: 4px; }
+.hero__intro .hero__role { margin-bottom: 0; }
+
+@media (max-width: 480px) {
+  .hero__top { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .hero__avatar { width: 88px; height: 88px; }
+}

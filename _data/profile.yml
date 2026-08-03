@@ -3,6 +3,7 @@ role: "Ingénieur Cybersécurité"
 tagline: "Pentest, CERT et CTF — j'aime casser les choses pour mieux les protéger."
 location: "France"           # TODO: ajustez votre ville si besoin
 email: "wafoyvan16@gmail.com"    # TODO: remplacez par votre vraie adresse
+avatar: "/assets/img/1695037036103.jfif"
 cv_url: "/assets/cv.pdf"     # déposez votre CV dans assets/ et mettez-le à jour
 socials:
   github: "https://github.com/wafoyvan16"
