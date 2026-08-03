@@ -3,11 +3,7 @@
   period: "Juin 2026 - present"
   location: "Toulouse, France"
   summary: >
-    Dans le cadre du programme CARE Renfort RH Cybersecurite, je contribue au
-    renforcement de la securite du systeme d'information en intervenant sur
-    plusieurs axes strategiques : la resilience et la sauvegarde des donnees,
-    la securisation des acces a distance, ainsi que la protection et la
-    supervision des postes de travail.
+    Dans le cadre du programme CARE Renfort RH Cybersecurite, je contribue au renforcement de la securite du systeme d'information en intervenant sur plusieurs axes strategiques : la resilience et la sauvegarde des donnees,la securisation des acces a distance, ainsi que la protection et la supervision des postes de travail.
   highlights:
     - "Deploiement et generalisation de l'authentification multifacteur (MFA)."
     - "Realisation d'audits et de tests de securite du systeme d'information."
@@ -22,9 +18,7 @@
   period: "Fevrier 2025 - Juillet 2025"
   location: "Bois-Colombes, France"
   summary: >
-    Automatisation des tests d'intrusion au sein du laboratoire de securite,
-    avec de nouveaux tests axes sur la securite des protocoles radio (Wifi,
-    Bluetooth, NFC, Zigbee).
+    Automatisation des tests d'intrusion au sein du laboratoire de securite, avec de nouveaux tests axes sur la securite des protocoles radio (Wifi,Bluetooth, NFC, Zigbee).
   highlights:
     - "Tests d'intrusion Wi-Fi (WEP/WPA/WPA3) et Bluetooth (Classic & BLE) sur produits IoT."
     - "Analyse et exploitation de vulnerabilites sur protocoles radio."
@@ -36,9 +30,7 @@
   period: "Janvier 2024 - Juillet 2024"
   location: "Courbevoie, France"
   summary: >
-    Evolution du systeme d'information de Telerys Communication, adressant les
-    besoins des fonctions de l'entreprise (commerce, deploiement, exploitation,
-    production, finance).
+    Evolution du systeme d'information de Telerys Communication, adressant les besoins des fonctions de l'entreprise (commerce, deploiement, exploitation,production, finance).
   highlights:
     - "Deploiement et automatisation d'un SIEM ELK et d'un IDS Snort via Ansible."
     - "Creation de dashboards et d'alertes pour la detection de connexions frauduleuses."
