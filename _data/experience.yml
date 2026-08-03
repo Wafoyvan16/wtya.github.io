@@ -1,12 +1,46 @@
 # TODO: remplacez ces entrées par votre vrai parcours (stages, alternance,
 # postes, formation...). Gardez l'ordre du plus récent au plus ancien.
-- role: "Intitulé du poste / stage / formation"
-  company: "Nom de l'entreprise ou de l'école"
-  period: "20XX — présent"
-  location: "Ville, France"
+- role: "Administrateur cybersécurité"
+  company: "ASEI"
+  period: "Juin 2026 — présent"
+  location: "Toulouse, France"
   summary: >
-    Décrivez en 1-2 phrases le contexte et vos missions principales.
+    Décrivez en 1-2 pddhrases le contexte et vos missions principales.
+    Cybersécurité – Programme CARE Renfort RH
+Dans le cadre du programme CARE Renfort RH Cybersécurité, je contribue au renforcement de la sécurité du système d'information en intervenant sur plusieurs axes stratégiques : la résilience et la sauvegarde des données, la sécurisation des accès à distance, ainsi que la protection et la supervision des postes de travail.
   highlights:
     - "Réalisation concrète n°1"
     - "Réalisation concrète n°2"
     - "Réalisation concrète n°3"
+    - "Déploiement et généralisation de l'authentification multifacteur (MFA)."
+    - "Réalisation d'audits et de tests de sécurité du système d'information."
+    - "Conception et pilotage de campagnes de sensibilisation au phishing (simulations d'hameçonnage)."
+    - "Investigations forensiques sur des postes utilisateurs à la suite d'incidents de sécurité (ex. : analyse et remédiation d'infections par des infostealers tels qu'Acreed)."
+    - "Analyse et traitement des rapports de sécurité issus de différents outils (ORADAD, ORADAZ, SILENE, NETIFUL), avec mise en œuvre des actions de remédiation."
+    - "Élaboration et mise en place d'une stratégie de sauvegarde sécurisée afin d'améliorer la résilience du système d'information."
+    - "Participation au renforcement continu de la posture de cybersécurité et à la réduction de la surface d'exposition du système d'information."
+
+- role: "Stage - Auditeur en test d'intrusion"
+  company: "SAGEMCOM"
+  period: "Février 2025 — Juillet 2025"
+  location: "Bois-Colombes, France"
+  summary: >
+    Dans le cadre de l'automatisation des tests d'intrusion, j'ai intégré le laboratoire de sécurité dans le but d'enrichir les outils internes avec de nouveaux tests d'intrusion axés sur la securité des protocoles radio (Wifi, Bluetooth, NFC, Zigbee, etc...) via l'analyse et la mise en oeuvre d'attaques radio contribuant ainsi à la sécurité des produits ( Gateways, Set-top boxe, compteurs connectés, etc)
+  highlights:
+    - "Tests d'intrusion Wi-Fi (WEP/WPA/WPA3) et Bluetooth (Classic & BLE) sur produits IoT grand public"
+    - "Analyse et exploitation de vulnérabilités sur protocoles radio (Wi-Fi, Bluetooth, Zigbee)."
+    - "Intégration et automatisation de tests de sécurité dans l’outil interne test-auto (Python)."
+    - "Développement de PoC pour les vulnérabilités FragAttack, KRACK et Dragonblood (WPA3)."
+
+- role: "Stage - Ingénieur SecOPS"
+  company: "Telerys Communication"
+  period: "Janvier 2024 — Juillet 2024"
+  location: "Courbevoie, France"
+  summary: >
+  Integré au sein du SI dans un contexte dynamique en environnemenrt technique, nous avons été chargé de l'volution du système d'information de Telerys Communication adressant ainsi les besoins des fonctions de l'entreprise ( commerce, déploiement, exploitation, production et finance)
+ highlights:
+    - "Déploiement et automatisation d’un SIEM ELK et d’un IDS Snort via Ansible."
+    - "Création de dashboards et d’alertes pour le suivi des accès et détection de connexions frauduleuses."
+    - "Mise en place d’un DNSSEC privé et automatisation de la validation des empreintes SSH (SSHFP)."
+    - "Sécurisation des flux réseau (ACLs, bulle d’accès isolée – ufw)."
+    - "Utilisation des pratiques X-OPS : déploiement, environnements, versioning, automatisation, …"
