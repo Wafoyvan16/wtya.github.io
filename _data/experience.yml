@@ -5,9 +5,8 @@
   period: "Juin 2026 — présent"
   location: "Toulouse, France"
   summary: >
-    Décrivez en 1-2 pddhrases le contexte et vos missions principales.
-    Cybersécurité – Programme CARE Renfort RH
-Dans le cadre du programme CARE Renfort RH Cybersécurité, je contribue au renforcement de la sécurité du système d'information en intervenant sur plusieurs axes stratégiques : la résilience et la sauvegarde des données, la sécurisation des accès à distance, ainsi que la protection et la supervision des postes de travail.
+    Cybersécurité – Programme CARE Renfort RH 
+    Dans le cadre du programme CARE Renfort RH Cybersécurité, je contribue au renforcement de la sécurité du système d'information en intervenant sur plusieurs axes stratégiques : la résilience et la sauvegarde des données, la sécurisation des accès à distance, ainsi que la protection et la supervision des postes de travail.
   highlights:
     - "Réalisation concrète n°1"
     - "Réalisation concrète n°2"
@@ -25,7 +24,7 @@ Dans le cadre du programme CARE Renfort RH Cybersécurité, je contribue au renf
   period: "Février 2025 — Juillet 2025"
   location: "Bois-Colombes, France"
   summary: >
-    Dans le cadre de l'automatisation des tests d'intrusion, j'ai intégré le laboratoire de sécurité dans le but d'enrichir les outils internes avec de nouveaux tests d'intrusion axés sur la securité des protocoles radio (Wifi, Bluetooth, NFC, Zigbee, etc...) via l'analyse et la mise en oeuvre d'attaques radio contribuant ainsi à la sécurité des produits ( Gateways, Set-top boxe, compteurs connectés, etc)
+      Dans le cadre de l'automatisation des tests d'intrusion, j'ai intégré le laboratoire de sécurité dans le but d'enrichir les outils internes avec de nouveaux tests d'intrusion axés sur la securité des protocoles radio (Wifi, Bluetooth, NFC, Zigbee, etc...) via l'analyse et la mise en oeuvre d'attaques radio contribuant ainsi à la sécurité des produits ( Gateways, Set-top boxe, compteurs connectés, etc)
   highlights:
     - "Tests d'intrusion Wi-Fi (WEP/WPA/WPA3) et Bluetooth (Classic & BLE) sur produits IoT grand public"
     - "Analyse et exploitation de vulnérabilités sur protocoles radio (Wi-Fi, Bluetooth, Zigbee)."
@@ -37,7 +36,7 @@ Dans le cadre du programme CARE Renfort RH Cybersécurité, je contribue au renf
   period: "Janvier 2024 — Juillet 2024"
   location: "Courbevoie, France"
   summary: >
-  Integré au sein du SI dans un contexte dynamique en environnemenrt technique, nous avons été chargé de l'volution du système d'information de Telerys Communication adressant ainsi les besoins des fonctions de l'entreprise ( commerce, déploiement, exploitation, production et finance)
+      Integré au sein du SI dans un contexte dynamique en environnemenrt technique, nous avons été chargé de l'volution du système d'information de Telerys Communication adressant ainsi les besoins des fonctions de l'entreprise ( commerce, déploiement, exploitation, production et finance)
  highlights:
     - "Déploiement et automatisation d’un SIEM ELK et d’un IDS Snort via Ansible."
     - "Création de dashboards et d’alertes pour le suivi des accès et détection de connexions frauduleuses."
