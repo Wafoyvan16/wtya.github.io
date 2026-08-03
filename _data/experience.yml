@@ -1,45 +1,47 @@
-# TODO: remplacez ces entrées par votre vrai parcours (stages, alternance,
-# postes, formation...). Gardez l'ordre du plus récent au plus ancien.
-- role: "Administrateur cybersécurité"
+- role: "Administrateur cybersecurite"
   company: "ASEI"
-  period: "Juin 2026 — présent"
+  period: "Juin 2026 - present"
   location: "Toulouse, France"
   summary: >
-    Cybersécurité – Programme CARE Renfort RH 
-    Dans le cadre du programme CARE Renfort RH Cybersécurité, je contribue au renforcement de la sécurité du système d'information en intervenant sur plusieurs axes stratégiques : la résilience et la sauvegarde des données, la sécurisation des accès à distance, ainsi que la protection et la supervision des postes de travail.
+    Dans le cadre du programme CARE Renfort RH Cybersecurite, je contribue au
+    renforcement de la securite du systeme d'information en intervenant sur
+    plusieurs axes strategiques : la resilience et la sauvegarde des donnees,
+    la securisation des acces a distance, ainsi que la protection et la
+    supervision des postes de travail.
   highlights:
-    - "Réalisation concrète n°1"
-    - "Réalisation concrète n°2"
-    - "Réalisation concrète n°3"
-    - "Déploiement et généralisation de l'authentification multifacteur (MFA)."
-    - "Réalisation d'audits et de tests de sécurité du système d'information."
-    - "Conception et pilotage de campagnes de sensibilisation au phishing (simulations d'hameçonnage)."
-    - "Investigations forensiques sur des postes utilisateurs à la suite d'incidents de sécurité (ex. : analyse et remédiation d'infections par des infostealers tels qu'Acreed)."
-    - "Analyse et traitement des rapports de sécurité issus de différents outils (ORADAD, ORADAZ, SILENE, NETIFUL), avec mise en œuvre des actions de remédiation."
-    - "Élaboration et mise en place d'une stratégie de sauvegarde sécurisée afin d'améliorer la résilience du système d'information."
-    - "Participation au renforcement continu de la posture de cybersécurité et à la réduction de la surface d'exposition du système d'information."
+    - "Deploiement et generalisation de l'authentification multifacteur (MFA)."
+    - "Realisation d'audits et de tests de securite du systeme d'information."
+    - "Conception et pilotage de campagnes de sensibilisation au phishing (simulations d'hameconnage)."
+    - "Investigations forensiques sur des postes utilisateurs a la suite d'incidents de securite."
+    - "Analyse et traitement des rapports de securite issus de differents outils (ORADAD, ORADAZ, SILENE, NETIFUL)."
+    - "Elaboration et mise en place d'une strategie de sauvegarde securisee."
+    - "Participation au renforcement continu de la posture de cybersecurite."
 
 - role: "Stage - Auditeur en test d'intrusion"
   company: "SAGEMCOM"
-  period: "Février 2025 — Juillet 2025"
+  period: "Fevrier 2025 - Juillet 2025"
   location: "Bois-Colombes, France"
   summary: >
-      Dans le cadre de l'automatisation des tests d'intrusion, j'ai intégré le laboratoire de sécurité dans le but d'enrichir les outils internes avec de nouveaux tests d'intrusion axés sur la securité des protocoles radio (Wifi, Bluetooth, NFC, Zigbee, etc...) via l'analyse et la mise en oeuvre d'attaques radio contribuant ainsi à la sécurité des produits ( Gateways, Set-top boxe, compteurs connectés, etc)
+    Automatisation des tests d'intrusion au sein du laboratoire de securite,
+    avec de nouveaux tests axes sur la securite des protocoles radio (Wifi,
+    Bluetooth, NFC, Zigbee).
   highlights:
-    - "Tests d'intrusion Wi-Fi (WEP/WPA/WPA3) et Bluetooth (Classic & BLE) sur produits IoT grand public"
-    - "Analyse et exploitation de vulnérabilités sur protocoles radio (Wi-Fi, Bluetooth, Zigbee)."
-    - "Intégration et automatisation de tests de sécurité dans l’outil interne test-auto (Python)."
-    - "Développement de PoC pour les vulnérabilités FragAttack, KRACK et Dragonblood (WPA3)."
+    - "Tests d'intrusion Wi-Fi (WEP/WPA/WPA3) et Bluetooth (Classic & BLE) sur produits IoT."
+    - "Analyse et exploitation de vulnerabilites sur protocoles radio."
+    - "Integration et automatisation de tests de securite dans l'outil interne test-auto (Python)."
+    - "Developpement de PoC pour FragAttack, KRACK et Dragonblood (WPA3)."
 
-- role: "Stage - Ingénieur SecOPS"
+- role: "Stage - Ingenieur SecOps"
   company: "Telerys Communication"
-  period: "Janvier 2024 — Juillet 2024"
+  period: "Janvier 2024 - Juillet 2024"
   location: "Courbevoie, France"
   summary: >
-      Integré au sein du SI dans un contexte dynamique en environnemenrt technique, nous avons été chargé de l'volution du système d'information de Telerys Communication adressant ainsi les besoins des fonctions de l'entreprise ( commerce, déploiement, exploitation, production et finance)
- highlights:
-    - "Déploiement et automatisation d’un SIEM ELK et d’un IDS Snort via Ansible."
-    - "Création de dashboards et d’alertes pour le suivi des accès et détection de connexions frauduleuses."
-    - "Mise en place d’un DNSSEC privé et automatisation de la validation des empreintes SSH (SSHFP)."
-    - "Sécurisation des flux réseau (ACLs, bulle d’accès isolée – ufw)."
-    - "Utilisation des pratiques X-OPS : déploiement, environnements, versioning, automatisation, …"
+    Evolution du systeme d'information de Telerys Communication, adressant les
+    besoins des fonctions de l'entreprise (commerce, deploiement, exploitation,
+    production, finance).
+  highlights:
+    - "Deploiement et automatisation d'un SIEM ELK et d'un IDS Snort via Ansible."
+    - "Creation de dashboards et d'alertes pour la detection de connexions frauduleuses."
+    - "Mise en place d'un DNSSEC prive et automatisation de la validation SSHFP."
+    - "Securisation des flux reseau (ACLs, bulle d'acces isolee - ufw)."
+    - "Utilisation des pratiques X-Ops : deploiement, environnements, versioning, automatisation."
