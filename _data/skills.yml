@@ -1,0 +1,8 @@
+- category: "Sécurité"
+  items: ["Pentest", "SOC", "SecOps", "CTI", "OSINT", "Forensic"]
+
+- category: "Technique"
+  items: ["Réseau", "Cryptographie", "Linux", "CTF"]
+
+- category: "Plateformes CTF"
+  items: ["HackTheBox", "TryHackMe", "Root-Me"]

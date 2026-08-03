@@ -1,0 +1,13 @@
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="{{ '/' | relative_url }}">
+      <span class="nav__prompt">$</span> {{ site.data.profile.name | downcase | replace: ' ', '_' }}
+    </a>
+    <nav class="nav__links">
+      <a href="{{ '/#about' | relative_url }}">about</a>
+      <a href="{{ '/#experience' | relative_url }}">experience</a>
+      <a href="{{ '/ctf/' | relative_url }}">ctf</a>
+      <a href="{{ '/#contact' | relative_url }}">contact</a>
+    </nav>
+  </div>
+</header>

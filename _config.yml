@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 title: "Portfolio — Cybersecurity Engineer"
 description: "Portfolio, expériences et writeups CTF"
 url: "https://VOTRE-PSEUDO.github.io"   # remplacez par votre URL GitHub Pages
 baseurl: ""                             # laissez vide si repo nommé VOTRE-PSEUDO.github.io
                                          # sinon mettez "/nom-du-repo"
+=======
+title: "Yvan WAFO — Ingénieur Cybersécurité"
+description: "Portfolio, expériences et writeups CTF de Yvan WAFO"
+url: "https://wafoyvan16.github.io"
+baseurl: "/wtya.github.io"   # votre repo actuel s'appelle wtya.github.io → on garde ce chemin
+>>>>>>> aaff7ab (Refonte du site en portfolio Jekyll (CTF, writeups, expériences))
 
 markdown: kramdown
 kramdown:

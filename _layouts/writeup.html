@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="writeup">
+  <div class="writeup__inner">
+    <a class="writeup__back" href="{{ '/ctf/' | relative_url }}">&larr; retour à la liste des CTF</a>
+
+    <header class="writeup__header">
+      <p class="writeup__hop"># writeup</p>
+      <h1 class="writeup__title">{{ page.title }}</h1>
+      <div class="writeup__meta">
+        {% if page.ctf %}<span class="tag tag--ctf">{{ page.ctf }}</span>{% endif %}
+        {% if page.category %}<span class="tag">{{ page.category }}</span>{% endif %}
+        {% if page.difficulty %}<span class="tag tag--{{ page.difficulty | downcase }}">{{ page.difficulty }}</span>{% endif %}
+        {% if page.date %}<span class="writeup__date">{{ page.date | date: "%d %b %Y" }}</span>{% endif %}
+      </div>
+      {% if page.tags %}
+      <div class="writeup__tags">
+        {% for t in page.tags %}<span class="pill">{{ t }}</span>{% endfor %}
+      </div>
+      {% endif %}
+    </header>
+
+    <div class="writeup__content">
+      {{ content }}
+    </div>
+  </div>
+</article>

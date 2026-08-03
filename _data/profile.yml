@@ -1,0 +1,27 @@
+name: "Yvan WAFO"
+role: "Ingénieur Cybersécurité"
+tagline: "Pentest, SOC et CTF — j'aime casser les choses pour mieux les protéger."
+location: "France"           # TODO: ajustez votre ville si besoin
+email: "TODO@example.com"    # TODO: remplacez par votre vraie adresse
+cv_url: "/assets/cv.pdf"     # déposez votre CV dans assets/ et mettez-le à jour
+socials:
+  github: "https://github.com/wafoyvan16"
+  linkedin: "https://linkedin.com/in/TODO"   # TODO: votre lien LinkedIn
+  ctftime: ""                                 # TODO: votre profil CTFtime si vous en avez un
+  twitter: ""                # laissez vide si non utilisé
+
+# TODO: mettez ces chiffres à jour avec vos vraies stats
+stats:
+  - label: "CTFs joués"
+    value: "0"
+  - label: "Writeups publiés"
+    value: "0"
+  - label: "Plateformes actives"
+    value: "3"
+  - label: "Certifications"
+    value: "0"
+
+bio: >
+  Ingénieur cybersécurité passionné par le pentest et la défense des infrastructures.
+  Je partage ici mes expériences, mes projets et mes writeups CTF, avec un intérêt
+  particulier pour la sécurité offensive et défensive (pentest, SOC, forensic, OSINT).

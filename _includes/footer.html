@@ -1,0 +1,15 @@
+<footer class="footer" id="contact">
+  <div class="footer__inner">
+    <div class="footer__col">
+      <p class="footer__hop"># contact</p>
+      <a class="footer__email" href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+    </div>
+    <div class="footer__col footer__links">
+      {% if site.data.profile.socials.github %}<a href="{{ site.data.profile.socials.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+      {% if site.data.profile.socials.linkedin %}<a href="{{ site.data.profile.socials.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+      {% if site.data.profile.socials.ctftime %}<a href="{{ site.data.profile.socials.ctftime }}" target="_blank" rel="noopener">CTFtime</a>{% endif %}
+      {% if site.data.profile.socials.twitter and site.data.profile.socials.twitter != "" %}<a href="{{ site.data.profile.socials.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
+    </div>
+    <p class="footer__meta">© {{ 'now' | date: "%Y" }} {{ site.data.profile.name }} · build via Jekyll + GitHub Pages</p>
+  </div>
+</footer>

@@ -1,0 +1,95 @@
+---
+layout: default
+---
+{% assign p = site.data.profile %}
+
+<section class="hero">
+  <div class="hero__inner">
+    <p class="hero__prompt"><span class="hero__prompt-sym">$</span> whoami<span class="hero__cursor" aria-hidden="true">_</span></p>
+    <h1 class="hero__name">{{ p.name }}</h1>
+    <p class="hero__role">{{ p.role }} · {{ p.location }}</p>
+    <p class="hero__tagline">{{ p.tagline }}</p>
+
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="{{ '/ctf/' | relative_url }}">Voir les CTF & writeups</a>
+      {% if p.cv_url %}<a class="btn btn--ghost" href="{{ p.cv_url | relative_url }}" target="_blank" rel="noopener">Télécharger le CV</a>{% endif %}
+    </div>
+
+    <dl class="hero__stats">
+      {% for s in p.stats %}
+      <div class="hero__stat">
+        <dt>{{ s.value }}</dt>
+        <dd>{{ s.label }}</dd>
+      </div>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="section__inner">
+    <p class="section__hop">01 · about</p>
+    <p class="about__bio">{{ p.bio }}</p>
+
+    <div class="skills">
+      {% for group in site.data.skills %}
+      <div class="skills__group">
+        <p class="skills__cat">{{ group.category }}</p>
+        <ul class="skills__list">
+          {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="experience">
+  <div class="section__inner">
+    <p class="section__hop">02 · experience</p>
+    <ol class="timeline">
+      {% for job in site.data.experience %}
+      <li class="timeline__item">
+        <div class="timeline__marker" aria-hidden="true"></div>
+        <div class="timeline__content">
+          <p class="timeline__period">{{ job.period }}</p>
+          <h3 class="timeline__role">{{ job.role }}</h3>
+          <p class="timeline__company">{{ job.company }} — {{ job.location }}</p>
+          <p class="timeline__summary">{{ job.summary }}</p>
+          <ul class="timeline__highlights">
+            {% for h in job.highlights %}<li>{{ h }}</li>{% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="ctf-preview">
+  <div class="section__inner">
+    <p class="section__hop">03 · ctf récents</p>
+    <table class="ctf-table ctf-table--compact">
+      <thead>
+        <tr><th>CTF</th><th>Date</th><th>Catégories</th><th>Résultat</th><th></th></tr>
+      </thead>
+      <tbody>
+        {% assign recent = site.data.ctfs | sort: "date" | reverse | slice: 0, 4 %}
+        {% for c in recent %}
+        <tr>
+          <td>{{ c.name }}</td>
+          <td class="mono">{{ c.date }}</td>
+          <td>{% for cat in c.categories %}<span class="pill pill--sm">{{ cat }}</span>{% endfor %}</td>
+          <td class="mono">{{ c.rank }}</td>
+          <td>
+            {% if c.writeup and c.writeup != "" %}
+              <a class="link-arrow" href="{{ '/writeups/' | append: c.writeup | append: '/' | relative_url }}">writeup →</a>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a class="link-arrow" href="{{ '/ctf/' | relative_url }}">voir tous les CTF →</a>
+  </div>
+</section>

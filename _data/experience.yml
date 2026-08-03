@@ -1,0 +1,12 @@
+# TODO: remplacez ces entrées par votre vrai parcours (stages, alternance,
+# postes, formation...). Gardez l'ordre du plus récent au plus ancien.
+- role: "Intitulé du poste / stage / formation"
+  company: "Nom de l'entreprise ou de l'école"
+  period: "20XX — présent"
+  location: "Ville, France"
+  summary: >
+    Décrivez en 1-2 phrases le contexte et vos missions principales.
+  highlights:
+    - "Réalisation concrète n°1"
+    - "Réalisation concrète n°2"
+    - "Réalisation concrète n°3"
