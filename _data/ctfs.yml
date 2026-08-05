@@ -1,11 +1,11 @@
 # Liste de tous les CTF joués. Le champ "writeup" doit correspondre au nom
 # de fichier (sans extension) d'un writeup dans _writeups/ s'il existe,
 # sinon laissez-le vide ("").
-- name: "HackTheBox Cyber Apocalypse"
-  date: "2026-03-15"
-  team: "Solo"
+- name: "HackTheBox Cyber Apocalypse CTF 2026 The Salt Crown"
+  date: "2026-07-24 -> 2026-07-29"
+  team: "solo"
   format: "Jeopardy"
-  categories: ["web", "pwn", "crypto"]
+  categories: ["web", "pwn", "crypto", "Coding", "Blockchain", "Cloud", "IA-ML", "ICS", "Forensic", "Hardware", "Secure Coding", "Reversing", "GamePwn", "Quantum" ]
   rank: "142 / 4200"
   ctftime_url: "https://ctftime.org/event/0000"
   writeup: "cyber-apocalypse-2026-pwn-baby-rop"
