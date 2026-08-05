@@ -6,17 +6,17 @@
   team: "solo"
   format: "Jeopardy"
   categories: ["web", "pwn", "crypto", "Coding", "Blockchain", "Cloud", "IA-ML", "ICS", "Forensic", "Hardware", "Secure Coding", "Reversing", "GamePwn", "Quantum" ]
-  rank: "142 / 4200"
+  rank: "768 ieme"
   ctftime_url: "https://ctftime.org/event/0000"
   writeup: "cyber-apocalypse-2026-pwn-baby-rop"
 
-- name: "picoCTF"
-  date: "2026-01-10"
+- name: "Time0UTT CTF"
+  date: "2026-06-13 -> 2026-06-14"
   team: "Solo"
   format: "Jeopardy"
-  categories: ["web", "forensics", "reverse"]
-  rank: "N/A"
-  ctftime_url: "https://picoctf.org"
+  categories: ["web", "forensics", "reverse", "misc", "pwn", "osint", "reseau"]
+  rank: "7/23"
+  ctftime_url: "https://hack.utt.fr"
   writeup: ""
 
 - name: "DownUnderCTF"
