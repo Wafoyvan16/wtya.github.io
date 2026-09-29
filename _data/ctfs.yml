@@ -1,6 +1,15 @@
 # Liste de tous les CTF joués. Le champ "writeup" doit correspondre au nom
 # de fichier (sans extension) d'un writeup dans _writeups/ s'il existe,
 # sinon laissez-le vide ("").
+- name: "HThe DFIR Report - The DFIR Challenge"
+  date: "2026-09-26"
+  team: "solo"
+  format: "Jeopardy"
+  categories: ["Forensic" ]
+  rank: "---"
+  ctftime_url: "https://ctf.training-thedfirreport.com/"
+  writeup: "---"
+
 - name: "HackTheBox Cyber Apocalypse CTF 2026 The Salt Crown"
   date: "2026-07-24 -> 2026-07-29"
   team: "solo"
